@@ -1,0 +1,51 @@
+/* About section styles */
+.about {
+  padding: 20px 0;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 28px;
+  color: #333;
+  margin: 20px;
+}
+
+.about .container {
+  display: flex;
+}
+.about img {
+  max-width: 100%;
+  height: auto;
+}
+.about .container-paragraph {
+  padding: 50px 10px;
+}
+.about p {
+  font-size: 22px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.about p strong {
+  color: #333;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+  }
+  .about .container {
+    flex-direction: column;
+  }
+  .about img {
+    width: 100%;
+  }
+  .about .container-paragraph {
+    padding: 20px;
+  }
+}
