@@ -13,8 +13,14 @@ const infos = {
   header: {
     logo: "./assets/icon.png",
     title: "Welcome to my website",
-    navigation: ["home", "about", "contact", "pricing", "portfolio", "autres"],
+    navigation: ["home", "about", "pricing", "contact"],
   },
+  contact: {
+    email: "exemple@exemple.com",
+    phone: "123-456-7890",
+    address: "123 rue de la rue",
+  },
+
   pricing: [
     {
       title: "Basic Plan",

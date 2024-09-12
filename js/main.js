@@ -1,12 +1,13 @@
 const main = document.querySelector("main");
 
 function init() {
+  // order of the elements
   header();
   banner();
-  sectionCards();
   about();
-  // contact
-  // footer
+  sectionCards();
+  contact();
+  footer();
 }
 
 init();
